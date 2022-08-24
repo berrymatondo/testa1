@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/testa1/static/css/main.073c9b0a.css",
+    "main.js": "/testa1/static/js/main.7c07a89f.js",
+    "index.html": "/testa1/index.html",
+    "main.073c9b0a.css.map": "/testa1/static/css/main.073c9b0a.css.map",
+    "main.7c07a89f.js.map": "/testa1/static/js/main.7c07a89f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.7c07a89f.js"
+  ]
+}
