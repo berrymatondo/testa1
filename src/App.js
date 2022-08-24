@@ -9,7 +9,7 @@ function App() {
   const [message, setMessage] = useState("");
   const [messageRec, setMessageRec] = useState("");
   const sendHandler = () => {
-    //emit event
+    //emit event 2
     socket.emit("send_message", { message });
   };
 
