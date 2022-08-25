@@ -2,7 +2,7 @@ import "./App.css";
 import io from "socket.io-client";
 import { useEffect, useState } from "react";
 
-const socket = io.connect("http://localhost:3001");
+const socket = io.connect("http://51.91.97.19:3041");
 //const socket = io.connect("https://jeteste1.herokuapp.com");
 
 function App() {
