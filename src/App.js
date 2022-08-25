@@ -22,7 +22,7 @@ function App() {
     <div className="App">
       <input onChange={(e) => setMessage(e.target.value)} />
       <button onClick={sendHandler}>Send</button>
-      <h1>Message 2:</h1>
+      <h1>Message 2 Mich:</h1>
       {messageRec}
     </div>
   );
