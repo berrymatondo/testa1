@@ -9,7 +9,7 @@ function App() {
   const [message, setMessage] = useState("");
   const [messageRec, setMessageRec] = useState("");
   const sendHandler = () => {
-    //emit event 2
+    //emit event 2ll
     socket.emit("send_message", { message });
   };
 
@@ -17,12 +17,12 @@ function App() {
     socket.on("receive_message", (data) => {
       setMessageRec(data.message);
     });
-  }, [socket]);
+  }, []);
   return (
     <div className="App">
       <input onChange={(e) => setMessage(e.target.value)} />
       <button onClick={sendHandler}>Send</button>
-      <h1>Message:</h1>
+      <h1>Message 2:</h1>
       {messageRec}
     </div>
   );
